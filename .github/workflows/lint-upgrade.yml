@@ -24,7 +24,7 @@ jobs:
 
       - name: Install upgraded ESLint toolchain
         run: |
-          npm install --no-save --save-dev eslint@latest @eslint/eslintrc@latest eslint-plugin-react-hooks@latest @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest
+          npm install --no-save --save-dev eslint@^9 @eslint/eslintrc@latest eslint-plugin-react-hooks@latest @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest
 
       - name: Run lint using upgraded toolchain
         run: |

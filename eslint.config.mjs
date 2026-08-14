@@ -21,6 +21,7 @@ const eslintConfig = [
       // Re-enable react-hooks/exhaustive-deps. If CI still errors due to tooling
       // incompatibility, the CI workflow will run an upgraded lint environment.
       "react-hooks/exhaustive-deps": "warn",
+      "react-hooks/set-state-in-effect": "warn",
       "@typescript-eslint/no-unused-expressions": "warn"
     }
   }
